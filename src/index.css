@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* =========================
+   🌈 DAISYUI LIGHT THEME
+   ========================= */
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+
+  /* Brand colors */
+  --color-primary: #1f2e1b;      /* Main buttons, CTA --dark green */ 
+  --color-secondary: #40513B;    /* Navbar, footer, headings --green */
+  --color-accent: #628141;       /* Highlights, ratings, badges --light green */
+  
+
+  /* Base colors */
+  --color-base-100: #E5D9B6;     /* Cards -- white */
+  --color-base-200: #E5D9B6;     /* Page background --dark white*/
+  --color-base-300: #ecebe6;     /* Borders / separators --white*/
+
+  /* Text colors */
+  --color-neutral: #03140b;       /* color --almost black*/
+ /* Custom extra colors */
+--color-primary-content: #9c1d06;   /* color --orange #CC561E*/
+}
+
+
+
+/* 🔥 GLOBAL FONT */
+@layer base {
+  html {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(16.5px, 1.3vw, 20px);
+  }
+}
+
+
+/* @layer utilities {
+  .font-Playfair {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+  }
+} */
