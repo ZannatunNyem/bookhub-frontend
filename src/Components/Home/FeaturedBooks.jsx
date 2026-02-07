@@ -8,7 +8,7 @@ export default function FeaturedBooks() {
   const [loading, setLoading] = useState(true);
 
   useEffect(()=>{
-    fetch("http://localhost:3000/allBooks")
+    fetch("https://bookhub-backend-six.vercel.app/allBooks")
     .then(res=>res.json())
     .then(data=>setBooks(data))
     .catch(error=>console.log(error))

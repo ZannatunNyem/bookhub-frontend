@@ -28,7 +28,7 @@ export default function BookDetail() {
     email: user.email
   };
 
-  axios.post('http://localhost:3000/cart', cartItem)
+  axios.post('https://bookhub-backend-six.vercel.app/cart', cartItem)
     .then(res => {
       console.log("Cart saved:", res.data);
       Swal.fire({
@@ -45,7 +45,7 @@ export default function BookDetail() {
 
 
   useEffect(() => {
-    fetch(`http://localhost:3000/allBooks/${id}`)
+    fetch(`https://bookhub-backend-six.vercel.app/allBooks/${id}`)
       .then(res => res.json())
       .then(data => setBookData(data))
       .catch((error) => console.log(error));

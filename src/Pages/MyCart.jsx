@@ -11,7 +11,7 @@ const MyCart = () => {
   useEffect(() => {
     if (user?.email) {
       axios
-        .get(`http://localhost:3000/cart?email=${user.email}`)
+        .get(`https://bookhub-backend-six.vercel.app/cart?email=${user.email}`)
         .then(res => setCart(res.data));
     }
   }, [user]);

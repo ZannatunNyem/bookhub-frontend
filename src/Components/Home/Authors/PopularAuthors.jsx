@@ -8,7 +8,7 @@ export default function PopularAuthors() {
     const [loading, setLoading] = useState(true);
 
   useEffect(()=>{
-    fetch(`http://localhost:3000/authors`)
+    fetch(`https://bookhub-backend-six.vercel.app/authors`)
     .then(res=>res.json())
     .then(data=>setAuthors(data))
     .catch(error=>console.log(error))

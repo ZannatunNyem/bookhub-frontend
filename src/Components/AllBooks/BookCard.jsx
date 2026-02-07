@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function BookCard({book}) {
 return (
-<Link to={`http://localhost:5173/books/${book._id}`}>
+<Link to={`/books/${book._id}`}>
   <div className="card bg-base-100 h-full flex flex-col shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:scale-[1.02] cursor-pointer">
     <figure className="w-full aspect-[3/4] overflow-hidden">
       <img

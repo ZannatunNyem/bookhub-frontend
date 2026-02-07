@@ -13,7 +13,7 @@ export default function RightAside() {
     const params=new URLSearchParams();
     if(category) params.append("category",category);
 
-    const url=`http://localhost:3000/allBooks?${params.toString()}`
+    const url=`https://bookhub-backend-six.vercel.app/allBooks?${params.toString()}`
       fetch(url)
       .then(res => res.json())
       .then(data => {

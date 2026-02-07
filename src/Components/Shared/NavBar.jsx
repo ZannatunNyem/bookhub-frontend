@@ -24,7 +24,7 @@ export default function NavBar() {
 
   useEffect(()=>{
     if(user?.email){
-      axios.get(`http://localhost:3000/cart?email=${user.email}`)
+      axios.get(`https://bookhub-backend-six.vercel.app/cart?email=${user.email}`)
       .then(res=>setCartCount(res.data.length))
       .catch(error=>console.error(error));
       

@@ -7,7 +7,7 @@ export default function AuthorDetail() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/authors/${id}`) // Make sure backend port is correct
+    fetch(`https://bookhub-backend-six.vercel.app/authors/${id}`) // Make sure backend port is correct
       .then((res) => res.json())
       .then((data) => setAuthor(data))
       .catch((error) => console.log(error));
