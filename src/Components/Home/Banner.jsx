@@ -27,20 +27,21 @@ export default function Banner() {
   <div
     data-aos="fade-right"
     
-    className="w-full md:w-1/2   mt-8 sm:mt-0"
+    className="w-full md:w-1/2   mt-8 sm:mt-5"
   >
-    <h1  className=" sm:text-left text-center text-5xl sm:text-4xl md:text-6xl font-bold mb-4">
-      Every Book
-    </h1>
-    <h1  className=" text-center text-4xl sm:text-4xl md:text-5xl font-bold mb-4">
-      You’re Looking For,
-    </h1>
-    <h1  className=" text-primary-content sm:text-left text-center text-5xl sm:text-4xl md:text-5xl font-bold mb-4">
-      Under One Roof
-    </h1>
-    <p className=" text-center text-xl font-semibold">
-      Books For Every Mind
-    </p>
+<h1 className="sm:text-left text-center text-5xl sm:text-4xl md:text-6xl font-bold mb-4">
+  Every Book
+</h1>
+<h1 className="text-center text-5xl sm:text-4xl md:text-6xl font-bold mb-4">
+  You’re Looking For,
+</h1>
+<h1 className="text-primary-content sm:text-left text-center text-5xl sm:text-4xl md:text-5xl font-bold mb-4">
+  Under One Roof <span className="hidden lg:inline"> and One click</span>
+</h1>
+<p className="text-center text-xl font-semibold">
+  Books For Every Mind
+</p>
+
    
   </div>
 
