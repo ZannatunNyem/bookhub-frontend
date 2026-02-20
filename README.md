@@ -1,18 +1,37 @@
-# React + Vite
+# BookHub Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚 Overview
 
-Currently, two official plugins are available:
+**BookHub Frontend** is the user interface for a book discovery web app built with **React** and **Vite**. It allows users to browse and search books (connected later to a backend). This frontend is part of the larger BookHub project. 🌟
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A live version of this frontend (if deployed) should be added here 👇  
+**Live Demo:** *Add your deployed link here (e.g., Netlify / Vercel)*
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🚀 Features
 
-Note: This will impact Vite dev & build performances.
+- 📖 Browse books (static or fetched from API)  
+- 🔎 Search books by title or keyword  
+- 📱 Responsive UI across desktop and mobile  
+- ⚡ Fast navigation with React + Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| **React** | Core UI library |
+| **Vite** | Fast build & development tools |
+| **CSS** | Styling |
+| **Firebase (config)** | Setup for auth or hosting (if used) |
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/ZannatunNyem/bookhub-frontend.git
