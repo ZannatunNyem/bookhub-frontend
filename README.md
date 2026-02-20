@@ -17,11 +17,10 @@ This frontend is part of the larger BookHub full-stack project.
 
 ## 📝 Key Features
 
-✔ Google Login Authentication  
+✔ Gmail Authentication  
 ✔ Browse books by category  
 ✔ View detailed information about each book  
-✔ Add books to cart (cart is user-specific based on Gmail)  
-✔ Protected routes for authenticated users  
+✔ Add books to cart (cart is user specific based on Gmail)  
 ✔ SweetAlert notifications for actions  
 ✔ Fully responsive design (mobile, tablet, desktop)  
 ✔ Smooth navigation using React Router  
@@ -36,19 +35,19 @@ This frontend is part of the larger BookHub full-stack project.
 | **Vite** | Fast development and build tool |
 | **DaisyUI** | UI styling framework |
 | **Firebase** | Authentication & Hosting |
-| **React Router** | Client-side routing |
+| **React Router** | Client side routing |
 
 
 ---
 
 ## 🔐 Authentication System
 
-- Users can log in using Google.
+- Users can log in using Gmail.
 - After login, users can:
   - View book listings
   - Add books to their personal cart
 - Cart data is connected to the logged-in user's Gmail.
-- Protected routes prevent unauthorized access.
+
 
 ---
 
